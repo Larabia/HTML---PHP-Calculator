@@ -1,7 +1,7 @@
 # HTML---PHP-Calculator
 This is a calculator created to practice handling HTML forms in PHP.
 
-## Comenzando 🚀
+## Starting 🚀
 
 _I'm going to build a calculator to do addition and division of two integer numbers.
 
