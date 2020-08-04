@@ -10,24 +10,21 @@
 </head>
 <body>
 <h3>Addition</h3>
-<form method = "get" action = "addition.php">
+<form method = "get">
 First number: <br><input type= "number" name= "first"><br><br>
 Second number: <br><input type="number" name= "second"><br><br>
-<button type="submit">Add</button><br><br>
-</form>
+<button type="submit" formaction="/addition.php">Add</button><br><br>
 
 <h3>Division</h3>
-<form method = "get" action = "division.php">
+
 Numerator: <br><input type= "number" name= "numerator"><br><br>
 Denominator:<br> <input type="number" name= "denominator"><br><br>
-<button type="submit">Divide</button><br><br>
-</form>
+<button type="submit" formaction="/division.php">Divide</button><br><br>
 
 <h3>Calculate hypotenuse</h3>
-<form method = "get" action = "pitagoras.php">
 Adjacent:<br> <input type= "number" name= "adjacent"><br><br>
 Opposite:<br> <input type="number" name= "opposite"><br><br>
-<button type="submit">Pitagorize!</button><br>
+<button type="submit" formaction="/pitagoras.php">Pitagorize!</button><br>
 </form><br><br>
 <a href="index.php">Reset</a>
 </body>
